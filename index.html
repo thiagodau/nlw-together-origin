@@ -7,6 +7,11 @@
     <title>OriginSix</title>
     <!-- Icons -->
     <link rel="stylesheet" href="assets/style.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css" />
     <!-- Fonts -->
@@ -37,6 +42,7 @@
     </header>
 
     <main>
+      <!-- Home -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -59,6 +65,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- About -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -96,6 +103,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- Services -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -140,8 +148,112 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui.</h2>
+          </header>
+
+          <div class="testimanials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta, vel. Provident eligendi temporibus aliquid hic atque
+                    numquam ad, ducimus rem. Omnis consectetur molestias quos
+                    exercitationem quisquam dignissimos eligendi commodi itaque?
+                  </p>
+                  <cite>
+                    <img src="/assets/pictures/picture1.jpg" alt="" />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta, vel. Provident eligendi temporibus aliquid hic atque
+                    numquam ad, ducimus rem. Omnis consectetur molestias quos
+                    exercitationem quisquam dignissimos eligendi commodi itaque?
+                  </p>
+                  <cite>
+                    <img src="/assets/pictures/picture2.jpg" alt="" />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta, vel. Provident eligendi temporibus aliquid hic atque
+                    numquam ad, ducimus rem. Omnis consectetur molestias quos
+                    exercitationem quisquam dignissimos eligendi commodi itaque?
+                  </p>
+                  <cite>
+                    <img src="/assets/pictures/picture3.jpg" alt="" />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              sunt itaque dolorum possimus, iure, assumenda eaque quidem magni
+              fugit neque blanditiis, distinctio quisquam voluptatibus nisi
+              numquam magnam quo? Ab, iste!
+            </p>
+
+            <a
+              href="https://api.whatsapp.com/send?phone=SeuNúmero"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@Beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript.js -->
     <script src="javascript.js"></script>
   </body>
 </html>
